@@ -1,6 +1,7 @@
 //sequelize table
 module.exports = function(sequelize, DataTypes) {
     var Raffle = sequelize.define("raffle", {
+      userName
       name: DataTypes.TEXT, 
       allowNull: false, 
       validate: {
